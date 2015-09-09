@@ -2,31 +2,28 @@
 <package>
   <name>designator_relay</name>
   <version>0.0.0</version>
-  <description>The designator_relay package</description>
+  <description>
+    
+    Node for relaying published designator response topics
+    
+  </description>
   
-  <maintainer email="winkler@todo.todo">winkler</maintainer>
+  <author email="winkler@cs.uni-bremen.de">Jan Winkler</author>
+  <maintainer email="winkler@cs.uni-bremen.de">Jan Winkler</maintainer>
   
   <license>BSD</license>
   
   <buildtool_depend>catkin</buildtool_depend>
+  
   <build_depend>designator_integration_cpp</build_depend>
   <build_depend>designator_integration_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>tf</build_depend>
+  
   <run_depend>designator_integration_cpp</run_depend>
   <run_depend>designator_integration_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>tf</run_depend>
-
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- You can specify that this package is a metapackage here: -->
-    <!-- <metapackage/> -->
-
-    <!-- Other tools can request additional information be placed here -->
-
-  </export>
 </package>
